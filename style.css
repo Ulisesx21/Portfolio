@@ -332,7 +332,7 @@ hr {
 	width: 53px;
 	font-size: 13px;
 	margin: 0 2px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	padding: 2px;
 }
 
@@ -806,6 +806,14 @@ footer {
 	.project-div{
 		width: 70vw;
 	}
+
+	.description-div p {
+		font-size: 0.95rem;
+	}
+
+	.tec div {
+		margin-bottom: 7px;
+	}
 }
 
 @media (max-width: 420px) {
@@ -833,6 +841,27 @@ footer {
 
 	.btn-left {
 		margin-right: -35px;
+	}
+
+	.tec div {
+		font-size: 12.5px;
+		margin-bottom: 6.5px;
+	}
+
+	.description-div p {
+		font-size: 0.9rem;
+	}
+
+	.title-github {
+		height: 45px;
+	}
+
+	.description-div-2 a h3 {
+		font-size: 0.98rem;
+	}
+
+	.description-div-2 ul li a {
+		font-size: 0.98rem;
 	}
 
 }
