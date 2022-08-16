@@ -4,10 +4,13 @@ let titulo = document.querySelector(".rec-titulo")
 let ocupacion = document.querySelector(".rec-ocup")
 let parrafo = document.querySelector(".rec-parrafo")
 let img = document.querySelector(".rec-img")
+let span = document.querySelector(".span-anim")
 
 let dot1 = document.querySelector(".dot1")
 let dot2 = document.querySelector(".dot2")
 let dot3 = document.querySelector(".dot3")
+
+let myName = ["U","l","i","s","e","s"]
 
 dot2.style.background = "#eee"
 
@@ -83,3 +86,16 @@ function colorDot(n){
         dot3.style.background = "rgb(0, 0, 0)"
     }
 }
+
+let count = 0;
+setInterval(()=>{
+    
+    if(span.innerHTML === "Ulises"){
+        span.innerHTML = ""
+        count = 0
+    }else{
+        span.innerHTML += myName[count]
+        count++
+    }
+    
+},500)
