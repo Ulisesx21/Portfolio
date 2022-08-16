@@ -131,7 +131,17 @@ button:active {
 	background: linear-gradient(#029bc2,#21c5ee);
 	background-clip: text;
 	color: transparent;
-	width: 131.6px;
+	border-right: 4px solid white;
+	
+
+	animation: blink .5s infinite step-end alternate;
+} 
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+		height: 10px;
+	}
 }
 
 #portada p{
