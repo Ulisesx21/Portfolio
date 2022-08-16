@@ -43,10 +43,10 @@ btnRight.addEventListener("click",()=>{
         c = 0;
     }
     colorDot(c)
+    img.src = frases[c].src
     titulo.innerHTML = frases[c].nombre
     ocupacion.innerHTML = frases[c].ocupacion
     parrafo.innerHTML = `"${frases[c].frase}"`
-    img.src = frases[c].src
 })
 
 btnLeft.addEventListener("click",()=>{
@@ -55,10 +55,10 @@ btnLeft.addEventListener("click",()=>{
         c = frases.length-1;
     }
     colorDot(c)
+    img.src = frases[c].src
     titulo.innerHTML = frases[c].nombre
     ocupacion.innerHTML = frases[c].ocupacion
     parrafo.innerHTML = `"${frases[c].frase}"`
-    img.src = frases[c].src
 })
 
 document.querySelector(".go-top-container")
