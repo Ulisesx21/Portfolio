@@ -197,10 +197,6 @@ button:active {
 	margin-bottom: 100px;
 }
 
-.span-anim {
-
-}
-
 /* Projects */
 
 #projects {
@@ -224,7 +220,7 @@ button:active {
 
 hr {
 	width: 60vw;
-	color: rgba(82, 82, 82, 0.466);
+	color: rgba(82, 82, 82, 0.199);
 }
 
 .project-div {
