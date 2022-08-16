@@ -42,8 +42,8 @@ btnRight.addEventListener("click",()=>{
     if(c >= frases.length){
         c = 0;
     }
-    colorDot(c)
     img.src = frases[c].src
+    colorDot(c)
     titulo.innerHTML = frases[c].nombre
     ocupacion.innerHTML = frases[c].ocupacion
     parrafo.innerHTML = `"${frases[c].frase}"`
@@ -54,8 +54,8 @@ btnLeft.addEventListener("click",()=>{
     if(c < 0){
         c = frases.length-1;
     }
-    colorDot(c)
     img.src = frases[c].src
+    colorDot(c)
     titulo.innerHTML = frases[c].nombre
     ocupacion.innerHTML = frases[c].ocupacion
     parrafo.innerHTML = `"${frases[c].frase}"`
