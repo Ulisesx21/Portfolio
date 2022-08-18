@@ -61,14 +61,6 @@ btnLeft.addEventListener("click",()=>{
     parrafo.innerHTML = `"${frases[c].frase}"`
 })
 
-document.querySelector(".go-top-container")
-.addEventListener("click", () =>{
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-});
-
 function colorDot(n){
     if(n === 0){
         dot1.style.background = "rgb(0, 0, 0)"
@@ -99,3 +91,11 @@ setInterval(()=>{
     }
     
 },500)
+
+document.querySelector(".go-top-container")
+.addEventListener("click", () =>{
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
