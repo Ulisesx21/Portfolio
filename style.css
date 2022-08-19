@@ -618,6 +618,11 @@ footer {
 
 @media (max-width: 768px){
 
+	#projects {
+		height: 100%;
+		padding: 100px 0;
+	}
+
 	header{
 		border-radius: 0 0 30px 30px;
 	}
@@ -834,10 +839,6 @@ footer {
 
 @media (max-width: 500px) {
 
-	.project-div{
-		width: 70vw;
-	}
-
 	.description-div p {
 		font-size: 0.95rem;
 	}
@@ -845,14 +846,10 @@ footer {
 	.tec div {
 		margin-bottom: 7px;
 	}
-}
 
-@media (max-width: 420px) {
-
-	.project-div{
-		width: 82vw;
+	.project-div {
+		margin: 18px 0px;
 	}
-
 }
 
 
@@ -880,6 +877,7 @@ footer {
 	}
 
 	.description-div p {
+		margin-top: 5px;
 		font-size: 0.9rem;
 	}
 
@@ -900,3 +898,16 @@ footer {
 	}
 
 }
+
+@media (max-width: 378px) {
+
+	.btn-right {
+		margin-left: -50px;
+	}
+
+	.btn-left {
+		margin-right: -50px;
+	}
+
+}
+
