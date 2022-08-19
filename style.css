@@ -285,12 +285,14 @@ hr {
 .description-div {
 	height: 200px;
 	background: linear-gradient(#24252a,#24252a,#24252ae0);
+	width: 100%;
 }
 
 .title-github {
 	display: flex;
 	justify-content: space-between;
 	height: 48px;
+	width: 100%;
 }
 
 .title-github ul li{
