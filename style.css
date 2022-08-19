@@ -843,10 +843,6 @@ footer {
 		font-size: 0.95rem;
 	}
 
-	.tec div {
-		margin-bottom: 7px;
-	}
-
 	.project-div {
 		margin: 18px 0px;
 	}
@@ -893,8 +889,12 @@ footer {
 		font-size: 0.98rem;
 	}
 
+	.project-div:hover{
+		transform: none;
+	}
+
 	.project-div{
-		width: 85vw;
+		width: 90vw;
 	}
 
 }
@@ -907,6 +907,10 @@ footer {
 
 	.btn-left {
 		margin-right: -50px;
+	}
+
+	.project-div{
+		width: 92vw;
 	}
 
 }
