@@ -1,14 +1,14 @@
-let btnRight = document.querySelector(".btn-right")
-let btnLeft = document.querySelector(".btn-left")
-let titulo = document.querySelector(".rec-titulo")
-let ocupacion = document.querySelector(".rec-ocup")
-let parrafo = document.querySelector(".rec-parrafo")
-let img = document.querySelector(".rec-img")
-let span = document.querySelector(".span-anim")
+const btnRight = document.querySelector(".btn-right")
+const btnLeft = document.querySelector(".btn-left")
+const titulo = document.querySelector(".rec-titulo")
+const ocupacion = document.querySelector(".rec-ocup")
+const parrafo = document.querySelector(".rec-parrafo")
+const img = document.querySelector(".rec-img")
+const span = document.querySelector(".span-anim")
 
-let dot1 = document.querySelector(".dot1")
-let dot2 = document.querySelector(".dot2")
-let dot3 = document.querySelector(".dot3")
+const dot1 = document.querySelector(".dot1")
+const dot2 = document.querySelector(".dot2")
+const dot3 = document.querySelector(".dot3")
 
 let myName = ["U","l","i","s","e","s"]
 
@@ -37,16 +37,21 @@ let frases = [
     }  
 ]
 
+    img.src = frases[c].src
+    titulo.innerHTML = frases[c].nombre
+    ocupacion.innerHTML = frases[c].ocupacion
+    parrafo.innerHTML = `"${frases[c].frase}"`
+
 btnRight.addEventListener("click",()=>{
     c++
     if(c >= frases.length){
         c = 0;
     }
     img.src = frases[c].src
-    colorDot(c)
     titulo.innerHTML = frases[c].nombre
     ocupacion.innerHTML = frases[c].ocupacion
     parrafo.innerHTML = `"${frases[c].frase}"`
+    colorDot(c)
 })
 
 btnLeft.addEventListener("click",()=>{
@@ -55,10 +60,10 @@ btnLeft.addEventListener("click",()=>{
         c = frases.length-1;
     }
     img.src = frases[c].src
-    colorDot(c)
     titulo.innerHTML = frases[c].nombre
     ocupacion.innerHTML = frases[c].ocupacion
     parrafo.innerHTML = `"${frases[c].frase}"`
+    colorDot(c)
 })
 
 function colorDot(n){
