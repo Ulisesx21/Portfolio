@@ -237,10 +237,6 @@ hr {
 	box-shadow: 1px 1px 5px black;
 }
 
-.project-div:hover{
-	transform: scale(1.01);
-}
-
 
 .img-div {
 	border-bottom: 2px solid #24252a;
