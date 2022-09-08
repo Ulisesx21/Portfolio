@@ -18,22 +18,22 @@ let c = 0;
 
 let frases = [  
     {
-    frase:"Lo vi ayudando a una señora a cruzar la calle.",
-    src:"./images/Mark Zuckerberg.jpg",
-    nombre:"Mark Zuckerberg",
-    ocupacion:"CEO de Meta",
+        frase:"Lo vi ayudando a una señora a cruzar la calle.",
+        src:"./images/Mark Zuckerberg.jpg",
+        nombre:"Mark Zuckerberg",
+        ocupacion:"CEO de Meta",
     },
     {
-    frase:"Me sorprendió lo rápido que toma un vaso de agua.",
-    src:"./images/Bill Gates.jpg",
-    nombre:"Bill Gates",
-    ocupacion:"Empresario",
+        frase:"Me sorprendió lo rápido que toma un vaso de agua.",
+        src:"./images/Bill Gates.jpg",
+        nombre:"Bill Gates",
+        ocupacion:"Empresario",
     },
     {
-    frase:"Una vez me presto 10 pesos para comprar un Guaymallén.",
-    src:"./images/Elon Musk.jpg",
-    nombre:"Elon Musk",
-    ocupacion:"CEO de Tesla, Inc.",
+        frase:"Una vez me presto 10 pesos para comprar un Guaymallén.",
+        src:"./images/Elon Musk.jpg",
+        nombre:"Elon Musk",
+        ocupacion:"CEO de Tesla, Inc.",
     }  
 ]
 

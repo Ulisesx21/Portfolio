@@ -299,6 +299,7 @@ hr {
 
 .title-github ul li a i{
 	font-size: 1.3em;
+	transition: 0.2s ease-in;
 }
 
 .title-github ul li a i:hover{
