@@ -47,11 +47,13 @@ btnRight.addEventListener("click",()=>{
     if(c >= frases.length){
         c = 0;
     }
-    img.src = frases[c].src
-    titulo.innerHTML = frases[c].nombre
-    ocupacion.innerHTML = frases[c].ocupacion
-    parrafo.innerHTML = `"${frases[c].frase}"`
-    colorDot(c)
+    setTimeout(()=>{
+        img.src = frases[c].src
+        titulo.innerHTML = frases[c].nombre
+        ocupacion.innerHTML = frases[c].ocupacion
+        parrafo.innerHTML = `"${frases[c].frase}"`
+        colorDot(c)
+    },200)
 })
 
 btnLeft.addEventListener("click",()=>{
@@ -59,11 +61,13 @@ btnLeft.addEventListener("click",()=>{
     if(c < 0){
         c = frases.length-1;
     }
-    img.src = frases[c].src
-    titulo.innerHTML = frases[c].nombre
-    ocupacion.innerHTML = frases[c].ocupacion
-    parrafo.innerHTML = `"${frases[c].frase}"`
-    colorDot(c)
+    setTimeout(()=>{
+        img.src = frases[c].src
+        titulo.innerHTML = frases[c].nombre
+        ocupacion.innerHTML = frases[c].ocupacion
+        parrafo.innerHTML = `"${frases[c].frase}"`
+        colorDot(c)
+    },200)
 })
 
 function colorDot(n){

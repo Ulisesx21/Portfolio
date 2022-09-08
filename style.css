@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
 }
 
 html{
@@ -452,6 +453,7 @@ hr {
 .rec-parrafo {
 	font-size: 1.06rem;
 	color: rgb(32, 32, 32);
+	font-weight: 500;
 }
 
 .btn-left {
@@ -578,7 +580,7 @@ footer {
 
 .footer-content h3 {
 	font-size: 1.9rem;
-	font-weight: 400;
+	font-weight: 500;
 	text-transform: capitalize;
 	line-height: 3rem;
 	user-select: none;
