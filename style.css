@@ -206,7 +206,7 @@ button:active {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 #projects h1{
@@ -594,6 +594,23 @@ footer {
 	text-transform: capitalize;
 	line-height: 3rem;
 	user-select: none;
+}
+
+.name-div {
+	font-size: 1.9rem;
+	line-height: 3rem;
+	margin: 0 0.2px;
+	transition: 0.5s ease;
+	text-shadow: 0 0 2px #000;;
+}
+
+.name-div:hover {
+	transition-duration: 0s;
+}
+
+.name-div-space {
+	width: 6px;
+	height: 10px;
 }
 
 .footer-content p {
