@@ -11,11 +11,11 @@ const dot1 = document.querySelector(".dot1")
 const dot2 = document.querySelector(".dot2")
 const dot3 = document.querySelector(".dot3")
 
-let myName = ["U","l","i","s","e","s"]
+let myName = ["U","l","i","s","e","s"];
 
-const colors = ["#e74c3c","#8e44ad","#3498db","#e67e22","#2ecc71"]
+const colors = ["#e74c3c","#8e44ad","#3498db","#e67e22","#2ecc71"];
 
-dot2.style.background = "#eee"
+dot2.style.background = "#eee";
 
 let c = 0;
 
@@ -118,9 +118,19 @@ nameDivContainer.addEventListener("mouseover",(e)=> {
     }  
 })
 
+nameDivContainer.addEventListener("mouseout",(e)=> {
+    if(e.target.className === "name-div"){
+        removeColor(e.target)
+    }  
+})
+
 function setColor(element){
     const color = getRandomColor()
     element.style.color = color;
+}
+
+function removeColor(element){
+    element.style.color = "white";
 }
 
 function getRandomColor(){
