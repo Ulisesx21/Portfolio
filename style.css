@@ -207,6 +207,7 @@ button:active {
 	align-items: center;
 	width: 100%;
 	min-height: 100vh;
+	padding: 50px 0;
 }
 
 #projects h1{
