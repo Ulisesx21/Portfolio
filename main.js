@@ -1,4 +1,3 @@
-
 const span = document.querySelector(".span-anim")
 const nameDivContainer = document.getElementById("name-div-container")
 
