@@ -353,11 +353,11 @@ hr {
 	color: #eee;
 	background: linear-gradient(#21c5ee,#026881);
 	border-radius: 30px;
-	width: 53px;
+	min-width: 53px;
 	font-size: 13px;
 	margin: 0 2px;
 	margin-bottom: 10px;
-	padding: 2px;
+	padding: 2px 6px;
 	user-select: none;
 	transition: 0.2s;
 }
