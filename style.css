@@ -207,7 +207,7 @@ button:active {
 	align-items: center;
 	width: 100%;
 	min-height: 100vh;
-	padding: 50px 0;
+	padding: 100px 0;
 }
 
 #projects h1{
@@ -222,7 +222,7 @@ button:active {
 
 hr {
 	width: 60vw;
-	color: rgba(82, 82, 82, 0.199);
+	color: rgba(82, 82, 82, 0.15);
 }
 
 .project-div {
